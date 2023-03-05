@@ -12268,6 +12268,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  margin: 6px;
 }
 
 hr.divider {
