@@ -37,12 +37,12 @@
   --bs-primary: #f4623a;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #16c9ec80;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary-rgb: 105, 238, 234;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -83,7 +83,7 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  /* color: var(--bs-body-color); */
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -268,12 +268,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #0400ff;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #c34e2e;
+  color: #0366d8 !important;
 }
 
 a:not([href]):not([class]),
@@ -3275,8 +3275,8 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #1ffff4;
+  border-color: #0051ff;
 }
 
 .btn-check:focus+.btn-primary,
@@ -4492,7 +4492,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #f4623a;
+  color: #0de9ff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -12253,9 +12253,9 @@ body {
   padding: 8rem 0;
 }
 
-.text-white-75 {
+/* .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
-}
+} */
 
 .btn-xl {
   padding: 1.25rem 2.25rem;
@@ -12270,8 +12270,8 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
-  opacity: 1;
+  background-color: #fefefe;
+  opacity: 0.5;
 }
 
 hr.divider-light {
@@ -12304,7 +12304,7 @@ hr.divider-light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #3a62f4 !important;
 }
 
 @media (min-width: 992px) {
